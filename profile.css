@@ -25,36 +25,6 @@ body {
   position: relative;
   z-index: 100;
 }
-/* .header::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 5px;
-  background: linear-gradient(
-    90deg,
-    #8b5a2b,
-    #d4a76a,
-    #e8c28e,
-    #d4a76a,
-    #8b5a2b
-  );
-  background-size: 200% 100%;
-  animation: gradient-shift 8s ease infinite;
-}
-
-@keyframes gradient-shift {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-} */
 
 .logo-container {
   display: flex;
@@ -63,7 +33,7 @@ body {
 
 .logo {
   font-family: "Playfair Display", serif;
-  font-size: 2.5rem;
+  font-size: 2.0rem;
   font-weight: 700;
   color: #8b5a2b;
   letter-spacing: 2px;
@@ -72,7 +42,7 @@ body {
 
 .logo {
   font-family: 'Bungee Shade', cursive;
-  font-size: 40px;
+  font-size: 35px;
   color: #000;
 }
 
@@ -368,15 +338,15 @@ body {
   max-width: 300px;
   margin: 0 auto 15px;
   padding: 12px 20px;
-  background-color:rgba(249, 121, 109, 0.5);
-  color: black;
+  background: linear-gradient(90deg, #f9796d 0%, #f9796d 100%);
+  color: white;
   border: none;
   border-radius: 50px;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 0.95rem;
   cursor: pointer;
-  transition: all 0.3s ease;
+  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease; 
   box-shadow: 0 4px 12px rgba(139, 90, 43, 0.3);
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -387,35 +357,16 @@ body {
 }
 
 .btn:hover {
-  transform: translateY(-2px);
+  transform: translateY(-3px);
   box-shadow: 0 6px 15px rgba(139, 90, 43, 0.4);
-  /* background: linear-gradient(90deg, #a67c52 30%, #e8c28e 100%); */
-}
-
-.btn:hover::after {
-  left: 100%;
+  background: linear-gradient(90deg, #F26E61 30%, #f35d4f 100%);
 }
 
 .btn:active {
   transform: translateY(0);
-  box-shadow: 0 3px;
+  box-shadow: 0 4px 10px rgba(77, 3, 3, 0.3);
 }
 
-.btn::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: -100%;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(
-    90deg,
-    transparent,
-    rgba(255, 255, 255, 0.2),
-    transparent
-  );
-  transition: 0.5s;
-}
 
 /* Footer */
 .footer {

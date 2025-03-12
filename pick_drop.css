@@ -26,9 +26,23 @@ body {
   z-index: 100;
 }
 
+.logo-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  font-family: "Playfair Display", serif;
+  font-size: 2.0rem;
+  font-weight: 700;
+  color: #8b5a2b;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.1);
+}
+
 .logo {
   font-family: 'Bungee Shade', cursive;
-  font-size: 40px;
+  font-size: 35px;
   color: #000;
 }
 
@@ -197,23 +211,23 @@ body {
   border: none;
   border-radius: 14px;
   background-color: rgb(250, 247, 247); 
-  color: #f9796d;
+  /* color: #f9796d; */
   font-family: "Quicksand", sans-serif;
-  font-size: 8px;
+  font-size: 9px;
   font-weight: bold;
-  text-align: left;
+  text-align: center;
   cursor: pointer;
   transition: background 0.3s, transform 0.2s, box-shadow 0.3s;
   box-shadow: 0 2px 6px rgba(251, 194, 235, 0.4);
 }
 
 .btn-select-map i {
-  font-size: 16px; /* Map icon size */
-  color: #555;
+  font-size: 12px; /* Map icon size */
+  color: #ffffff;
 }
 
 .btn-select-map:hover {
-  background: linear-gradient(90deg, #fbc2eb 0%, #f0b7a4 100%);
+  /* background: linear-gradient(90deg, #f1b682 0%, #fcb299 100%); */
   transform: scale(1.03);
   box-shadow: 0 4px 10px rgba(251, 194, 235, 0.5);
 }
@@ -253,7 +267,7 @@ button:active {
   background-color: #f9796d;
   color: white;
   padding: 40px 5%;
-  margin-top: 150px;
+  margin-top: 50px;
   text-align: center;
 }
 

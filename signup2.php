@@ -7,13 +7,7 @@
     <link rel="stylesheet" href="signup2.css" />
     <!-- Google Fonts Link for Bungee Shade -->
     <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap" rel="stylesheet" />
-    <style type="text/css">
-
-      .logo {
-        font-family: "Bungee Shade", cursive;
-        font-size: 5rem;
-      }
-    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
   </head>
   <body>
   
